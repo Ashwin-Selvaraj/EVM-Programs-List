@@ -35,7 +35,7 @@ contract DynamicOverlayNFT is ERC721, Ownable {
     event OverlayUpdated(uint256 indexed tokenId, string overlayURI);
     event DynamicAttributesUpdated(uint256 indexed tokenId, string dynamicAttributes);
     
-    constructor() ERC721("Ashwin Cyberpunk NFT", "ACNFT") Ownable(msg.sender) {}
+    constructor() ERC721("Ashwin  NFT", "ASHFT") Ownable(msg.sender) {}
     
     /**
      * @dev Mint a new NFT with base image
