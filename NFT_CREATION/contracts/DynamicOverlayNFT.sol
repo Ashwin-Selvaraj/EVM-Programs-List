@@ -179,14 +179,3 @@ contract DynamicOverlayNFT is ERC721, Ownable {
         return _ownerOf(tokenId) != address(0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
